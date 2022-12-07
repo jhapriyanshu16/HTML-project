@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSEWALLAH</title>
+
+    <!--FIVICON-->
+    <link rel="icon" type="image/x-icon" href="/images/fav.png">
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!-- GOOGLE FONTS (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        body { background-image: url("./images/bg-texture.png") }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>COURSEWALLAH</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!--========================== END OF NAVBAR ============================-->
+
+
+
+
+
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Grow your skills to advance your career path</h1>
+                <p>
+                    Start learning for free with a wide range of free online courses covering different subjects. Discover free online learning from top teachers around the globe and get certifications.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/header.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--========================== END OF HEADER ============================-->
+
+
+
+
+
+
+
+    <section class="categories">
+        <div class="container categories__container">
+          <div class="categories__left">
+            <h1>Categories</h1>
+            <p>
+                Popular CourseWallah Skills topics to learn now.
+                Choose from 450+ online video courses with new additions published every month
+            </p>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+  
+          <div class="categories__right">
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-bitcoin-circle"></i>
+              </span>
+              <h5>Blockchain</h5>
+              <p>Learn how the blockchain is leading to a paradigm shift in decentralized application programming</p>
+            </article>
+  
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-palette"></i>
+              </span>
+              <h5>Graphic Design</h5>
+              <p>Make Compelling Design. Learn and apply the principles of graphic design towards a comprehensive branding project.</p>
+            </article>
+  
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-usd-circle"></i>
+              </span>
+              <h5>Finance</h5>
+              <p>Learn the basics of finance and accounting. Build a foundation of core business skills in finance and accounting</p>
+            </article>
+  
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-megaphone"></i>
+              </span>
+              <h5>Marketing</h5>
+              <p>This is your path to a career in digital marketing. In this program, you’ll learn in-demand skills that can have you job-ready in less than 6 months</p>
+            </article>
+  
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-music"></i>
+              </span>
+              <h5>Music</h5>
+              <p>Develop Your Creativity as a Music Producer . Learn the art and technology of music production to create professional music compositions.</p>
+            </article>
+  
+            <article class="category">
+              <span class="category__icon">
+                <i class="uil uil-puzzle-piece"></i>
+              </span>
+              <h5>Business</h5>
+              <p>Solve Real Business Problems. Build a foundation of core business skills in marketing, finance, accounting and operations.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!--====================== END OF CATEGORIES =====================-->
+
+
+
+
+
+
+
+
+      <section class="courses">
+          <h2>Our Popular Courses</h2>
+          <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course1.jpg">
+                </div>
+                <div class="course__info">
+                    <h4>Docker for absolute beginners</h4>
+                    <p>
+                      Docker is a tool designed to make it easier to create, deploy, and run applications by using containers
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course2.jpg">
+                </div>
+                <div class="course__info">
+                    <h4>Introduction to Computer Science and Programming</h4>
+                    <p>
+                      Get ready for computer science. Create graphical programs and learn computing mathematics
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course3.jpg">
+                </div>
+                <div class="course__info">
+                    <h4>Python for Everybody Specialization</h4>
+                    <p>
+                      Learn to Program and Analyze Data with Python. Develop programs to gather, clean, analyze, and visualize data
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+          </div>
+      </section>
+      <!--====================== END OF COURSES =====================-->
+
+
+
+
+
+
+
+
+
+      <section class="faqs">
+          <h2>Frequently Asked Questions</h2>
+          <div class="container faqs__container">
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>What is online learning like?</h4>
+                      <p>
+                        For those who have never encountered online learning, the biggest question is often what it is actually like. The caveat, as you know, is that online learning comes in several forms. Therefore, this is your chance to explain that to people. Point out that there are different types of online courses and programs, and that they’ll have to decide which is best for them. Then, explain the types of courses you offer and how your online programs work to give them all the information they need. This not only gives them information, but it increases their trust because you’re being transparent and giving them straightforward answers. 
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>Can I learn at my own pace?</h4>
+                      <p>
+                        This is another common question that people have about online courses. There are usually self-paced programs and traditional classroom or meeting-style programs available. Today’s world is full of busy people that want to better themselves, so the self-paced programs are popular. Whether or not you provide this option, be sure to answer this question for people and explain the pros and cons of each type of learning. As a bonus, you can even invite them to contact you for more information or to discuss what their options are.
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>Are you licensed by educational organizations?</h4>
+                      <p>
+                        There is not always a need for licensing or accreditation for online courses. However, some programs do require it. Either way, people will usually ask what type of training or background you have, as well as any licensing that is available if that is relevant. Make sure that you answer this question by telling them if you do hold any licenses or accreditation, as well as by explaining whether or not those are needed, and why. It gives them the confidence that you have the right experience and boosts your credibility because you are offering additional information for the sake of education alone.
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>Does online learning really work?</h4>
+                      <p>
+                        There is always a skeptic, and when it comes to online learning, there are often several of them. Everyone wants to know if online courses “really work”—and that is a hard question to answer because there are several factors to consider. On a general basis, yes, online learning can be effective. However, that depends on whether the courses are set up properly, the provider is educated and experienced, and if the person taking the courses does well in a virtual learning environment. You should be able to explain these things to people so that they know what they are getting into. Then, you can invite them to contact you to discuss whether it would be right for them. 
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>What are the technology requirements?</h4>
+                      <p>
+                        In the same vein, people need to know whether their computers are up to snuff. You’ll want to explain all the software that you use and what kind of technology people need to take your online courses. If there are certain programs or applications used, put those here. If you have the option to provide technology or direct people to the appropriate purchase, you should do that here, as well. Reassure people that you can help them with the requirements and that they can contact you to discuss whether their system meets the demands of your online courses.
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>How long does each course take?</h4>
+                      <p>
+                        Some online courses are just a few hours long, while others last a few months. Depending on the type of online learning that you offer, your courses may have their own variable lengths. Explain to people the types of courses that you have available and what the time frame is for each one. If you offer self-paced learning, this is another place to reiterate that and reassure people that you can help them learn on their own time. 
+
+                        It could also be helpful to link to your course catalog or course pages here so that people can see the exact specifications of the course(s) they are considering taking from your website. 
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>Why should I use online learning?</h4>
+                      <p>
+                        Here is an example of the use of “why” instead of offering a yes/no question. People will wonder what online learning can do for them and rather than telling them whether or not they can benefit, you are explaining how everyone can benefit from online learning when they do it properly. Explain the benefits of learning online, from convenience and flexibility to the ability to learn at their own pace, and so forth. Make sure that you are very clear that it is about what people can gain from online learning and that you do not even suggest that they may not benefit here. 
+
+                        Provide testimonials, perks, and other insight to help people decide that your online courses are right for their needs. Online learning benefits just about everyone. You can even go the extra mile and list some stats about the success rates and benefits of online courses to reaffirm your stance. 
+                      </p>
+                  </div>
+              </article>
+
+              <article class="faq">
+                  <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                  <div class="question__answer">
+                      <h4>How much do courses cost?</h4>
+                      <p>
+                        ven when it comes to education and training, people want to be careful with their money. Some people are on a tight budget. Others just want to be mindful of what they spend. Either way, everyone is going to want to know how much online courses are going to cost. If you have a set list of prices, provide those here. You can also advise whether there are payment plans or financial assistance, or if you work with any type of student loan funding. 
+
+                        This is also a great place to link to your pricing page or to course pages where you list the course requirements and costs, allowing people to further their research without having to find the information on their own. 
+                      </p>
+                  </div>
+              </article>
+
+             
+          </div>
+      </section>
+      <!--====================== END OF FAQs =====================-->
+
+
+
+
+
+
+
+      <section class="container testimonials__container mySwiper">
+          <h2>Students' Testimonials</h2>
+          <div class="swiper-wrapper">
+              <article class="testimonial swiper-slide">
+                  <div class="avatar">
+                      <img src="./images/avatar1.jpg">
+                  </div>
+                  <div class="testimonial__info">
+                      <h5>Sumant Yadav</h5>
+                      <small>Student</small>
+                  </div>
+                  <div class="testimonial__body">
+                      <p>
+                        CourseWallah fit us like a glove. Their team curates fresh, up-to-date courses from their marketplace and makes them available to customers.
+                      </p>
+                  </div>
+              </article>
+
+              <article class="testimonial swiper-slide">
+                  <div class="avatar">
+                      <img src="./images/avatar2.jpg">
+                  </div>
+                  <div class="testimonial__info">
+                      <h5>Ansh Pratap Singh</h5>
+                      <small>Student</small>
+                  </div>
+                  <div class="testimonial__body">
+                      <p>
+                        This course went beyond my expectations. High quality content with brilliant professionals and learners to share experiences.
+                      </p>
+                  </div>
+              </article>
+
+              <article class="testimonial swiper-slide">
+                  <div class="avatar">
+                      <img src="./images/avatar3.jpg">
+                  </div>
+                  <div class="testimonial__info">
+                      <h5>Shreya Shristhy</h5>
+                      <small>Student</small>
+                  </div>
+                  <div class="testimonial__body">
+                      <p>
+                        The course was clearly organized with good videos, good readings and book references. The teachers are academic researchers with experience in the field and also experienced teachers. I enjoyed the course very much
+                      </p>
+                  </div>
+              </article>
+
+              <article class="testimonial swiper-slide">
+                  <div class="avatar">
+                      <img src="./images/avatar4.jpg">
+                  </div>
+                  <div class="testimonial__info">
+                      <h5>Siddanth Pandey</h5>
+                      <small>Student</small>
+                  </div>
+                  <div class="testimonial__body">
+                      <p>
+                        Level was challenging yet manageable, great quality content, adaptable length, and good flexibility. The community was also very friendly and helpful. I am so happy I chose this course, and would recommend it to others!
+                      </p>
+                  </div>
+              </article>
+
+              <article class="testimonial swiper-slide">
+                  <div class="avatar">
+                      <img src="./images/avatar5.jpg">
+                  </div>
+                  <div class="testimonial__info">
+                      <h5>Aman Prajapati<h5>
+                      <small>Student</small>
+                  </div>
+                  <div class="testimonial__body">
+                      <p>
+                        What a great course - so informative and pitched at just the right level. Really inspired me and I loved all the participant contributions.
+                      </p>
+                  </div>
+              </article>
+          </div>
+          <div class="swiper-pagination"></div>
+      </section>
+      <!--====================== END OF TESTIMONIALS =====================-->
+
+
+
+
+
+
+
+
+      <footer>
+        <div class="container footer__container">
+          <div class="footer__1">
+            <a href="index.html" class="footer__logo"><h4>COURSEWALLAH</h4></a>
+            <p>
+                 Coursewallah provides you many courses in different domain. Know about the courses, learning techniques, skills that you will acquire.
+            </p>
+          </div>
+  
+          <div class="footer__2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer__3">
+            <h4>Primacy</h4>
+            <ul class="privacy">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms and conditions</a></li>
+              <li><a href="#">Refund Policy</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer__4">
+            <h4>Contact Us</h4>
+            <div>
+              <p>+91 9169756034 </p>
+              <p>coursewallah@gmail.com</p>
+            </div>
+  
+            <ul class="footer__socials">
+              <li>
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-instagram-alt"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; COURSEWALLAH YouTube Tutorials</small>
+        </div>
+      </footer>
+
+
+
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script src="./main.js"></script>
+
+
+      <script>
+          // slides for testimonials section
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            // when window width is >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+      </script>
+
+</body>
+</html>
